@@ -1,0 +1,17 @@
+@media (min-width: 800px) {
+    .content {
+        margin: 0 auto;
+        width: 55vw;
+    }
+    .cover {
+        width: 55vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .cover {
+        max-width: 100%;
+        height: auto;
+    }
+}

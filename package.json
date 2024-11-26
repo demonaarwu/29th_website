@@ -1,6 +1,6 @@
 {
     "name": "29th",
-    "homepage": ".",
+    "homepage": "/29th_website/",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -9,12 +9,13 @@
         "build": "vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d dist"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "react": "^18.3.1",
-        "react-dom": "^18.3.1"
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.28.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.13.0",
